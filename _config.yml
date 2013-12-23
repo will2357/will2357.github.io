@@ -1,0 +1,154 @@
+# Site
+repository: will2357/modern-resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Will Highducheck
+title: Senior Software Engineer
+email: will@highducheck.org
+website: www.highducheck.org
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+twitter_username: will2357
+github_username: will2357
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: willhighducheck
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: jekyll
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: highducheck.org
+  icon: fas fa-globe
+  url: https://www.highducheck.org
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "G-L9841EZ7P8"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile_small_bw.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Will, and I'm a senior software engineer. As well as writing software, I have extensive experience in designing distributed systems, DevOps/system administration, machine learning, blockchain technologies, and financial services. I have a degree in mathematics from Dartmouth with additional coursework in computer science and machine learning from Caltech and Stanford. I have worked at a number of companies across a variety of industries over the last 20 years.
+
+  I am most skilled in [<mark>Ruby</mark>](https://www.ruby-lang.org/en/), [<mark>Python</mark>](https://www.python.org/), [<mark>Golang</mark>](https://go.dev/), [<mark>Amazon Web Services (AWS)</mark>](https://aws.amazon.com/), and [<mark>Machine Learning</mark>](https://en.wikipedia.org/wiki/Machine_learning).
+
+  For more information on my work history and skills, please see my [LinkedIn profile](https://www.linkedin.com/in/willhighducheck/).
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Github Projects
+        link: github.com/will2357
+        # link_text: Project Website
+        additional_links:
+          - title:  will2357
+            icon: fab fa-github
+            url: github.com/will2357
+          # - title:  Github page for project (eg. will2357/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. will2357.github.io/modern-resume-theme)
+        #quote: >
+          #These are probably some of the greatest apps ever created; if you don't agree, you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started my first project many years ago as a way of learning [<mark>Ruby on Rails</mark>](https://rubyonrails.org/) for a startup that I co-founded. Recently, I have been experimenting with [<mark>React</mark>](https://react.dev/) and [<mark>Rust</mark>](https://www.rust-lang.org/).
+
+  #- title: Experience # Title for the section
+    #layout: list # Type of content section (list/text)
+    #content:
+      #- layout: left
+        #title: The Boring Company
+        #link: boringcompany.com
+        ## link_text: boringcompany.com
+        #sub_title: Senior Network System Administrator
+        #caption: November 2017 - Present
+        #quote: >
+          #Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        #description: | # this will include new lines to allow paragraphs
+            #Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Dartmouth College
+        link: dartmouth.edu
+        sub_title: A.B., Pure Mathematics
+        quote: >
+          Dartmouth College is a private Ivy League research university in Hanover, New Hampshire.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Dartmouth, I studied pure mathematics with additional coursework in computer science. Relevant courses included abstract algebra, combinatorics, computability, computer science, differential equations, linear algebra, logic, number theory, probability, and statistical modeling.
+
+      - layout: left
+        title: Penn-Trafford High School
+        link: pths.penntrafford.org
+        sub_title: Valedictorian, ~400 Member Class
+        quote: >
+          Penn-Trafford High School is a public high school located in Harrison City, Pennsylvania.
+        description: | # this will include new lines to allow paragraphs
+          While at Penn-Trafford high school, I earned numerous local and state awards in mathematics, sciences, foreign languages, and other fields. Additionally, I was the president of multiple clubs, ran track, and swam.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering, distributed computing, and machine learning, my other hobbies include:
+      - Mountain biking
+      - Kayaking
+      - Dirt biking
+      - Skiing
+      - Creative writing
+      - Travelling
+      - Photographing adorable dogs and cats
+
+        ![Cutest puppies ever? Probably, yes.](images/cute_puppies_bw.jpg){:.cutie} ![Cutest kitten ever? Most likely.](images/cute_kitten_bw.jpg){:.cutie}
+
+      <nota-bene><br>NB: I added these photos from Getty Images to test some scss image rendering overrides in Jekyll, and now I can't bring myself to remove them.</nota-bene>
+
+# Footer
+footer_show_references: true
+references_title: References available upon request
+
+# Build settings
+remote_theme: will2357/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+# Exclude files not needed in output
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+]

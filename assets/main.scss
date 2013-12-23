@@ -1,0 +1,23 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import 'modern-resume-theme';
+
+nota-bene {
+  color: gray;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.cutie {
+  width: 250px;
+  //padding: 3px;
+  //background-color: gray;
+  //background-size: 50% 50%;
+  //background-repeat: no-repeat;
+  border-radius: 10%;
+  border: 3px solid gray;
+  //box-sizing: border-box;
+}
