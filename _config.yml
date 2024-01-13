@@ -69,8 +69,8 @@ content:
           # - title:  Github page for project (eg. will2357/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. will2357.github.io/modern-resume-theme)
-        quote: >
-          These are probably some of the greatest apps ever created; if you don't agree, you're probably wrong.
+        #quote: >
+          #These are probably some of the greatest apps ever created; if you don't agree, you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started my first project many, many years ago as a way of learning <mark>Ruby on Rails</mark> and most recently have been exploring <mark>React</mark> and <mark>Node.js</mark>.
 
