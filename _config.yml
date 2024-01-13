@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   For more information on my work history and skills, please see my [LinkedIn profile](https://www.linkedin.com/in/willhighducheck/).
 
-  I am most skilled in: <mark>Ruby</mark>, <mark>Golang</mark>, <mark>Python</mark>, <mark>AWS</mark>, and <mark>Seafood</mark> (eating it, that is).
+  I am most skilled in: <mark>Ruby</mark>, <mark>Golang</mark>, <mark>Python</mark>, and <mark>AWS</mark>.
 
 content:
   - title: Projects # Title for the section
