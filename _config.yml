@@ -8,8 +8,8 @@ version: 2
 # Personal info
 name: Will Highducheck
 title: Senior Software Engineer
-email: will@highducheck.org
-website: www.highducheck.org
+email: will@simplehaven.app
+website: www.simplehaven.app
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -31,9 +31,9 @@ linkedin_username: willhighducheck
 
 # Additional icon links
 additional_links:
-- title: highducheck.org
+- title: simplehaven.app
   icon: fas fa-globe
-  url: https://www.highducheck.org
+  url: https://www.simplehaven.app
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -122,8 +122,6 @@ content:
       - Photographing adorable dogs and cats
 
         ![Cutest puppies ever? Probably, yes.](images/cute_puppies_bw.jpg){:.cutie} ![Cutest kitten ever? Most likely.](images/cute_kitten_bw.jpg){:.cutie}
-
-      <nota-bene><br>NB: I added these photos from Getty Images to test some scss image rendering overrides in Jekyll, and now I can't bring myself to remove them.</nota-bene>
 
 # Footer
 footer_show_references: true
